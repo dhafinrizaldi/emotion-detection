@@ -1,0 +1,7 @@
+IF eye_open is LOW AND inner_brow_raise is LOW AND brow_slant is LOW AND inner_brow_gap is LOW THEN Angry (prototype target 0.84)
+IF mouth_width is HIGH AND eye_open is LOW AND brow_slant is LOW AND inner_brow_gap is LOW THEN Disgust (prototype target 0.78)
+IF mouth_open is HIGH AND mouth_width is HIGH AND inner_brow_raise is HIGH AND brow_slant is HIGH THEN Fear (prototype target 0.74)
+IF mouth_open is HIGH AND mouth_width is HIGH AND lip_corner_lift is HIGH AND eye_open is LOW AND inner_brow_raise is HIGH AND inner_brow_gap is HIGH THEN Happy (prototype target 0.90)
+IF mouth_open is LOW AND mouth_width is HIGH AND inner_brow_raise is HIGH AND brow_slant is HIGH THEN Sad (prototype target 0.78)
+IF mouth_open is HIGH AND mouth_width is LOW AND lip_corner_lift is HIGH AND eye_open is HIGH AND inner_brow_raise is HIGH AND inner_brow_gap is HIGH THEN Surprise (prototype target 0.86)
+IF (no LOW/HIGH conditions) THEN Neutral (prototype target 0.14)

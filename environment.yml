@@ -1,0 +1,22 @@
+name: emotion-detection
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.12
+  # Versions match results/task1/versions.json and results/task2/versions.json,
+  # so the pickled models in models/ load with the same scikit-learn they were saved with.
+  - numpy=2.5
+  - pandas=3.0
+  - scikit-learn=1.9.0
+  - scikit-image=0.26
+  - matplotlib=3.11
+  - joblib=1.5
+  - dlib=20.0
+  - seaborn
+  - pillow
+  - jupyterlab
+  - ipykernel
+  - pip
+  - pip:
+      - opencv-python==4.11.0.86

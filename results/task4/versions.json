@@ -1,0 +1,7 @@
+{
+  "numpy": "2.5.4",
+  "pandas": "3.0.6",
+  "dlib": "20.0.1",
+  "opencv-python": "4.11.0.86",
+  "matplotlib": "3.11.2"
+}

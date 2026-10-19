@@ -1,0 +1,5 @@
+model,accuracy,balanced_accuracy,macro_f1
+"Fuzzy TS one-vs-rest (14 rules), 7 geometric features",0.6836734693877551,0.6836734693877551,0.6499643505315011
+"Logistic Regression, same 7 geometric features",0.6887755102040817,0.6887755102040816,0.668735040476214
+Task 2: HOG + Logistic Regression (selected),0.5612244897959183,0.5612244897959183,0.5722463124547765
+Task 2: HOG + Random Forest (best test),0.6020408163265306,0.6020408163265306,0.5886975117399803
