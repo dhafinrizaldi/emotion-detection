@@ -1,0 +1,22 @@
+name: emotion-fuzzy
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  # Separate env for Task 4: pyFUME 0.3.4 pins numpy 1.24.4, pandas 1.5.3 and
+  # scipy 1.10.1, which conflict with the main environment.yml (numpy 2.x).
+  # Features are extracted in the main env and read here from
+  # results/task4/geometric_features.csv.
+  - python=3.11
+  - numpy=1.24.4
+  - pandas=1.5.3
+  - scipy=1.10.1
+  - scikit-learn
+  - matplotlib=3.8  # newer releases require numpy>=1.25
+  - seaborn
+  - joblib
+  - jupyterlab
+  - ipykernel
+  - pip
+  - pip:
+      - pyfume==0.3.4

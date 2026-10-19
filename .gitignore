@@ -1,2 +1,4 @@
-
 data/
+__pycache__
+# pyFUME writes this temp copy of the training data on every fit
+__new_dataset.csv

@@ -1,0 +1,9 @@
+{
+  "model_order": "first",
+  "rules_per_emotion": 2,
+  "total_rules": 14,
+  "selection_method": "5-fold GroupKFold on the 56 training identities; fewest rules within one SD of the best mean macro-F1",
+  "test_used_for_selection": false,
+  "seed": 42,
+  "fit_seconds": 1.2349315829924308
+}
