@@ -1,0 +1,3 @@
+model,accuracy,balanced_accuracy,macro_f1
+Task 1: HOG + Logistic Regression,0.432711061577041,0.4040083366290366,0.3972666046689335
+"Task 5: hog + lbp + geometric, Random Forest",0.5154639175257731,0.46883041601201214,0.48873719951479716

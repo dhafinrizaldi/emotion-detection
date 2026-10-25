@@ -34,7 +34,7 @@ def extractLandmarksFER(img):
 # Emotion labels (adjust if needed)
 emotion_labels = [
     'Angry',
-    'Disgust',``
+    'Disgust',
     'Fear',
     'Happy',
     'Sad',
@@ -75,7 +75,7 @@ while True:
 
         # Predict emotion
         prediction = model.predict(features)
-        label = emotion_labels[int(prediction)]
+        label = emotion_labels[int(prediction[0])]
 
         # Display label
         cv2.putText(frame, label, (x, y-10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (0, 255, 0), 2)
