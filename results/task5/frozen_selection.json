@@ -1,0 +1,81 @@
+{
+  "selection_split": "PublicTest",
+  "selection_metric": "macro_f1",
+  "training_split": "Training",
+  "features": [
+    "hog",
+    "lbp",
+    "geometric"
+  ],
+  "feature_settings": {
+    "hog": {
+      "orientations": 9,
+      "pixels_per_cell": [
+        8,
+        8
+      ],
+      "cells_per_block": [
+        2,
+        2
+      ],
+      "block_norm": "L2-Hys",
+      "transform_sqrt": true
+    },
+    "lbp": {
+      "P": 8,
+      "R": 1,
+      "method": "uniform",
+      "grid_cell": 8
+    },
+    "geometric": [
+      "mouth_open",
+      "mouth_width",
+      "lip_corner_lift",
+      "eye_open",
+      "inner_brow_raise",
+      "brow_slant",
+      "inner_brow_gap"
+    ],
+    "landmark_rectangle": [
+      1,
+      1,
+      47,
+      47
+    ]
+  },
+  "classifier": "Random Forest",
+  "parameters": {
+    "bootstrap": "True",
+    "ccp_alpha": "0.0",
+    "class_weight": "balanced",
+    "criterion": "entropy",
+    "max_depth": "None",
+    "max_features": "sqrt",
+    "max_leaf_nodes": "None",
+    "max_samples": "None",
+    "min_impurity_decrease": "0.0",
+    "min_samples_leaf": "3",
+    "min_samples_split": "2",
+    "min_weight_fraction_leaf": "0.0",
+    "monotonic_cst": "None",
+    "n_estimators": "300",
+    "n_jobs": "-1",
+    "oob_score": "False",
+    "random_state": "42",
+    "verbose": "0",
+    "warm_start": "False"
+  },
+  "validation_scores": {
+    "accuracy": 0.513792142658122,
+    "balanced_accuracy": 0.46865999858471946,
+    "macro_f1": 0.4901524893107246
+  },
+  "rejected": [
+    "class balancing for the linear models (5.2, 5.5)",
+    "mirroring augmentation (5.3)",
+    "finer HOG (5.4)",
+    "landmark coordinates (5.4)"
+  ],
+  "seed": 42,
+  "dataset_sha256": "3b8d9617d1017f34733c8f2474d7784c563ce86c40a86ac12c2d37cc968f871b"
+}

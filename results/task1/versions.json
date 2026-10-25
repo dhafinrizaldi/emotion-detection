@@ -1,10 +1,10 @@
 {
-  "numpy": "2.5.2",
-  "pandas": "3.0.5",
+  "numpy": "2.5.4",
+  "pandas": "3.0.6",
   "scikit-learn": "1.9.0",
   "scikit-image": "0.26.0",
-  "matplotlib": "3.11.0",
+  "matplotlib": "3.11.2",
   "joblib": "1.5.3",
   "dlib": "20.0.1",
-  "python": "3.12.14 | packaged by Anaconda, Inc. | (main, Aug 27 2026, 14:37:13) [MSC v.1942 64 bit (AMD64)]"
+  "python": "3.12.15 (main, Oct 13 2026, 16:47:20) [Clang 21.1.8 ]"
 }

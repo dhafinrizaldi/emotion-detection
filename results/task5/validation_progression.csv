@@ -1,0 +1,6 @@
+step,accuracy,balanced_accuracy,macro_f1
+5.1 Task 1 selection: HOG + Logistic Regression,0.4363,0.4021,0.4
+5.2 class balancing: HOG + balanced Random Forest,0.4625,0.4363,0.4325
+5.4 + LBP texture features,0.4698,0.4463,0.4429
+5.4 + KDEF-derived geometric features,0.4968,0.4677,0.4721
+"5.5 tuning: Random Forest {'max_depth': None, 'min_samples_leaf': 3}",0.513792142658122,0.46865999858471946,0.4901524893107246
