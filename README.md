@@ -27,7 +27,7 @@ The Task 5 model is the one used in the webcam demo.
 | `faceAndLandmarkModels/` | OpenCV Haar face detector and dlib 68-point landmark predictors |
 | `auxFiles/kdef_subject_split.pkl` | Supplied 56/14 identity split for KDEF |
 | `environment.yml`, `environment-fuzzy.yml` | Conda environments (see below) |
-| `baseline_demo_fer2013.py`, `baseline_fer2013_landmarks.ipynb`, `z_load_*.ipynb`, `models/rf_fer_model_landmarks.pkl` | Supplied starter code and model, kept for reference |
+| `baseline_demo_fer2013.py`, `baseline_fer2013_landmarks.ipynb`, `z_load_*.ipynb`, `models/rf_fer_model_landmarks.pkl` | Supplied starter code and model, kept in the repository for reference (not part of the submitted zip) |
 
 ## Why there are two notebooks
 

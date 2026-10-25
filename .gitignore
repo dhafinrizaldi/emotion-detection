@@ -4,3 +4,5 @@ __pycache__/
 *.py[cod]
 # pyFUME writes this temp copy of the training data on every fit
 __new_dataset.csv
+# Exported report (submitted in the zip, not tracked)
+Emotion Detection - Group 11.pdf
